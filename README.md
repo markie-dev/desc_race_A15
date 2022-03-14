@@ -12,19 +12,27 @@ CVE-2021-30955 iOS 15.1.1 POC for 6GB RAM devices (A14-A15)
 
 
 
+
+
+
+
+
 # Results
 - Achieves write privileges
 - Panic's immediately due to A12+
-<img src="src/sc.png" width="100">
+- generates logs in `/Settings/Privacy/Analytics&Improvements/Analytics Data`
 
 
 
-generates logs in:
 
 
+# Screenshots
 
-    /Settings/Privacy/Analytics & Improvements/Analytics Data
-
+<p float="left">
+  <img src="src/light.png" width="300" />
+  <img src="src/dark.png" width="300" /> 
+  <img src="src/sc.png" width="100" />
+</p>
 
 
 # Credits
